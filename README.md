@@ -32,5 +32,11 @@ feature like switch thread, execute many observers, handling error, ....
 We can use LiveData in MVVM model, or Architect Component Model.  
 `LiveData` is used for observe data change from `ViewModel` than we will update the `View` (Activity, Fragment, ...) data
 
+
+## Transformations
+Example use Transformations
+When you 2 LiveData, when you change 1 LiveData you want to change another LiveData OR call a task (eg: get data from API or local, ...) which also return LiveData
+
 ### Reference
 - https://developer.android.com/topic/libraries/architecture/livedata
+- https://developer.android.com/reference/android/arch/lifecycle/Transformations
